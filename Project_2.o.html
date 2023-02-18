@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML form"></form></title>
+  </head>
+  <body>
+    <h2>Amity sports Form</h2>
+    <br />
+    <form action="backend.php">
+      <div>
+        <label for="game"> Interested </label>
+
+        <select name="Liketoplay" id="game">
+          <option value="Football">Football</option>
+          <option value="cricket">cricket</option>
+          <option value="Volyball">Volyball</option>
+          <option value="Basketball">Basketball</option>
+        </select>
+      </div>
+      <br />
+
+      <div>Name: <input type="text" name="myname" /></div>
+      <br />
+      <div>Rolle no : <input type="text" name="my rolle" /></div>
+      <br />
+      <div>Email: <input type="email" name="my email" /></div>
+      <br />
+      <div>course: <input type="text" name="my class" /></div>
+      <br />
+      <!-- special type of input -->
+      <br />
+
+      <div>
+        <label for="Blood group">YOUR BLOOD GROUP</label>
+
+        <select name="Blood" id="Blood group">
+          <option value="A">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="O">O</option>
+        </select>
+      </div>
+      <br />
+      <div>Date of Birth:<input type="date" name="Birth" /></div>
+      <br />
+
+      <div>I am physicaly Fit<input type="checkbox" name="checkbox" /></div>
+      <br />
+      <div>
+        Gender : male<input type="radio" name="mygender" /> Female
+        <input type="radio" name="mygender" /> other<input
+        type="radio"
+        name="mygender"
+        />
+      </div>
+      <br />
+      <div>
+        <img
+        src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_480/lsci/db/PICTURES/CMS/354600/354604.jpg"
+        alt="images"
+        />
+      </div>
+      <div>
+        Feedback <textarea name="Mytexture" cols="100" rows="10"></textarea>
+      </div>
+      <div><input type="reset" value=" Reset " /></div>
+      <br />
+      <div>
+        <input type="submit" value="submit now" />
+      </div>
+      <br />
+      <div>
+        <input type="button" value="Exit" />
+      </div>
+    </form>
+  </body>
+</html>
